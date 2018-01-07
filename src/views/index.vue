@@ -35,6 +35,9 @@
                     <p>Welcome to your iView app!</p>
                     <Button type="ghost" @click="handleStart">Start iView</Button>
                 </h2>
+                <h2>
+                    <router-link :to="{name:'table'}">table</router-link>
+                </h2>
             </Col>
         </Row>
     </div>
